@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url('https://images.unsplash.com/photo-1609623096082-ed982304b689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    /* make blur bg */
+    font-family: 'Mulish', sans-serif;
+    flex-direction: column;
+}
+
+.greet-widget{
+    -webkit-backdrop-filter: blur(90px);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EDF6F9;
+    font-size: 1.5rem;
+
+    top: 100px;
+    padding:10px;
+
+}
+#time-zone{
+backdrop-filter: blur( 9px );
+padding: 20px;
+color: #00171f;
+font-size: 4rem;
+font-weight: bold;
+font-family: 'Assistant', sans-serif;
+
+
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EDF6F9;
+}
+
+.bucin-dong{
+    padding: 2px;
+    font-size:18px;
+    text-align :center;
+}
+
+#ref{
+    margin:6px;
+    border: solid 1px;
+    color : inherit;
+    padding: 8px;
+    cursor : pointer;
+    text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+    outline: none;
+    -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.timer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url('https://images.unsplash.com/photo-1609623096082-ed982304b689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    /* make blur bg */
+    font-family: 'Mulish', sans-serif;
+    flex-direction: column;
+    display:none;
+}
